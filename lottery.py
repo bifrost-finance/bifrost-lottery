@@ -66,7 +66,7 @@ def lottery(path):
     _min, _max = find_min_and_max(address_sum)
     print(f"The script will generate random number between {_min} and {_max}")
 
-    winner_count = 5
+    winner_count = 15
     winners = []
     while True:
         if len(winners) >= winner_count:
